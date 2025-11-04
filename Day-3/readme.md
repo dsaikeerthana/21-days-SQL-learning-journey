@@ -43,3 +43,10 @@ SELECT department, name, satisfaction_score
 FROM patients
 ORDER BY department ASC, satisfaction_score DESC;
 
+
+Daily Challenge
+
+Question:
+
+Retrieve the top 5 weeks with the highest patient refusals across all services, showing week, service, patients_refused, and patients_request.
+Sort the results by patients_refused in descending order.
